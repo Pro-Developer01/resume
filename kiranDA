@@ -1,0 +1,124 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyperref}
+
+% Page setup
+\usepackage[left=0.5in, right=0.5in, top=0.5in, bottom=0.5in]{geometry}
+
+% Sections formatting
+\titleformat{\section}{\vspace{-4pt}\scshape\raggedright\large}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{#1 \vspace{-2pt}}}
+\newcommand{\resumeSubheading}[4]{\vspace{-2pt}\item \textbf{#1} \hfill #2 \\
+\textit{#3} \hfill \textit{#4} \vspace{-7pt}}
+\newcommand{\resumeProjectHeading}[2]{\item \textbf{#1} \hfill #2 \vspace{-7pt}}
+
+% Define bullet style
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
+% No indent for itemize
+\setlist[itemize]{leftmargin=*}
+
+% No header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Kiran Yadav} \\ 
+     \href{tel:9321220039}{+91-9321220039} $|$ \href{mailto:Kiranyadav00121@gmail.com}{Kiranyadav00121@gmail.com} $|$ \href{https://www.linkedin.com/in/kiran-yadav-6099571b3/}{LinkedIn}
+\end{center}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}
+    \resumeItem{\textbf{Languages}: Python (Pandas, NumPy, SciPy, Matplotlib)}
+    \resumeItem{\textbf{Technologies/Skills}: Tally, MS PowerPoint, Power BI, Data visualizations, Microsoft Excel, VLookup, Conditional Formatting, Pivot Tables}
+    \resumeItem{\textbf{Databases}: SQL (SQL Server, MySQL)}
+\end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+\begin{itemize}
+    \resumeSubheading{JVM Mehta College of Commerce, University of Mumbai}{June'19 -- June'22}{B.Com (Banking \& Insurance)}{}
+
+    \resumeSubheading{Manipal University of BFSI, Bengaluru, Karnataka}{Sep'22 -- Feb'23}{Diploma in Banking and Finance}{}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\begin{itemize}
+    \resumeSubheading{ICICI Bank}{March'23 -- present}{Deputy Manager}{}
+    \begin{itemize}
+        \resumeItem{Responsible for operation, sales, and relationship management of clients.}
+        \resumeItem{Utilized \textbf{Power BI and MS Excel} to extract High-Quality Leads from customer’s 360 datasheet.}
+        \resumeItem{Increased branch business by 15\% by providing financial solutions to regular clients and approaching them with new financial products.}
+    \end{itemize}
+    
+
+    \resumeSubheading{Omikron Technology Pvt. Ltd}{Dec'22 -- Feb'23}{Data Analyst Intern}{}
+    \begin{itemize}
+        \resumeItem{Performed data cleaning \& analysis on large datasets using \textbf{Python and SQL} resulting in improved data accuracy and streamlined processes.}
+        \resumeItem{Created interactive dashboards using \textbf{Power BI} to visualize key performance indicators and provided actionable insights for senior management.}
+        \resumeItem{Developed and maintained data retrieval and reporting systems using \textbf{SQL}, automating the generation of weekly \textbf{sales reports} resulting in time savings of 3 hours per week.}
+    \end{itemize}
+\end{itemize}
+
+%-----------PROJECTS-----------
+\section{Projects}
+\begin{itemize}
+    \resumeProjectHeading{Data Professionals Survey BreakDown}{\href{https://drive.google.com/drive/folders/1VqouWlAomW1mju87e_uoQt10YRApxEqR?usp=sharing}{Project link}}
+    \begin{itemize}
+        \resumeItem{This survey breakdown provides data regarding various parameters related to data professionals for example: Salary, happiness, languages they prefer, their county region, etc.}
+        \resumeItem{Used Power BI to create a \textbf{dynamic dashboard }for a summarized view of the dataset.}
+        \resumeItem{Improved decision-making and conclusion-drawing by 80\%.}
+        \resumeItem{Analytics can be done by analysis various metrics by changing parameters like country, age, etc.}
+\resumeItem{\textbf{Tools/Skills}: Power BI, Data visualizations, Data Cleaning, MS excel. }
+    \end{itemize}
+    
+    \resumeProjectHeading{Bike Sales Dashboard}{\href{https://drive.google.com/drive/folders/1C6-yQdW6UcEKxYeRMX1NUihLU-ggpU7r?usp=sharing}{Project link}}
+    \begin{itemize}
+        \resumeItem{The dashboard provides a compact view of users interested in purchasing bikes and their demographic information.}
+        \resumeItem{Extracted dataset from Kaggle }
+        \resumeItem{Developed dynamic dashboards of charts and graphs using \textbf{Pivot table and sales dataset}.}
+        \resumeItem{Managed \textbf{113037 rows} of data from the \href{https://www.kaggle.com/code/sadiqshah/bike-store-sales-in-europe/data}{ Bikesales in Europe dataset}, cleaned and processed the data with MS Excel.}
+\resumeItem{\textbf{Tools/Skills}: MS Excel, Data Cleaning, Pivot Table. }
+    \end{itemize}
+
+    \resumeProjectHeading{Video Games Sales Dashboard}{\href{https://public.tableau.com/app/profile/kiran.yadav8075/viz/VideoGameSales_17107702522140/Dashboard1}{Project link}}
+    \begin{itemize}
+        \resumeItem{Through this project dashboard I prepare graphical view of video games sales report by various publishers in different continents of world , year wise. }
+        \resumeItem{ Utilised two major types of graph line chart and bar chart to demonstrate the report performance.}
+        \resumeItem{Developed dashboards is dynamic and hence data can be manipulated by various filters.}
+        \resumeItem{Utilise \textbf{11493 rows} of data from the \href{https://www.kaggle.com/datasets/gregorut/videogamesales?resource=download}{ Video Game sales dataset}, cleaned and processed the data with MS Excel.}
+\resumeItem{\textbf{Tools/Skills}: Tableau, Data visualizations, Data Cleaning, MS excel. }
+    \end{itemize}
+\end{itemize}
+
+\end{document}
